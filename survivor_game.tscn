@@ -14,9 +14,6 @@ layer = -30
 offset_right = 1939.0
 offset_bottom = 1101.0
 
-[node name="Player" parent="." instance=ExtResource("1_8id3q")]
-position = Vector2(945, 537)
-
 [node name="PineTree" parent="." instance=ExtResource("2_kbdm8")]
 position = Vector2(334, 278)
 
@@ -46,3 +43,6 @@ position = Vector2(855, 1009)
 
 [node name="Mob3" parent="." instance=ExtResource("3_kbdm8")]
 position = Vector2(736, 257)
+
+[node name="Player" parent="." instance=ExtResource("1_8id3q")]
+position = Vector2(945, 537)
